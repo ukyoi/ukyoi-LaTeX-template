@@ -1,0 +1,19 @@
+版本：0.2
+
+作者：右京样一（Ukyoi D）
+采用The LaTeX project public license（LPPL）发布。
+ 
+介绍：
+我将自己用于论文的命令等分离出来作为模板，以备自己日后有需，也可为他人行一方便。
+
+使用方法：
+参见LaTeX、BibTeX的相关介绍。
+
+默认格式：
+双列；标题、作者、摘要等信息为跨两列显示；引文样式采用WuYingnian制作的chinabst.bst。
+
+主要用到的宏包：
+处理中文：XeLaTeX（xeCJK）
+图片：wrapfig
+摘要：abstract
+以上宏包在安装了texlive-most的Arch Linux上均可直接找到、调用，其他发行版/平台未经测试，可能需要进行一些小修改。
